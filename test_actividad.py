@@ -12,14 +12,6 @@ from faker import Faker
 
 class tests_actividades(unittest.TestCase):
 
-    def setUp(self):
-
-        self.session = Session()
-
-        self.cuentas_claras = Logica_mock()
-
-
-        self.data_factory = Faker()
 
 
     def tearDown(self):
